@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400;1,700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    position: relative;
+width: 100vw;
+height: 100vh;
+    direction: rtl;
+    color: #fff;
+    background: linear-gradient(45deg ,#240165 ,#05001c);
+    font-family: 'Tajawal', sans-seri
+}
+.container{
+    padding: 20px;
+}
+.header h1{
+font-size: 50px;
+font-weight: 500;
+}
+
+.header h4{
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.header .line{
+    border-color: #6927e3;
+}
+.conrent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    align-items: center;
+    height: 40vh;
+    flex-wrap: wrap;
+
+
+}
+.conrent .body{
+    margin-right: 8px;
+    text-align: center;
+    background-color: #FFF;
+border-radius: 4px;
+
+    color: #000;
+
+}
+.conrent .body .head {
+ padding:  0 10px;
+ background-color: #4d1aae;
+
+}
+.conrent .body .head  h3{
+    color: #fff;
+    padding: 0 10px;
+    font-size: 30px;
+
+}
+.conrent .body .body-content {
+    text-align: center;
+
+}
+.conrent .body .body-content h4{
+    padding: 10px;
+    font-size: 40px;
+
+}
+.lyr.show{
+position: absolute;
+opacity: 1;
+display: block;
+
+top: 0;
+left: 0;
+width: 100%;
+
+height: 100%;
+background-color: rgba(0, 0, 0, .7);
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.lyr.show .con{
+background-color: #FFF;
+color: #000;
+padding: 20px;
+text-align: center;
+border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+
+}
+.lyr.show .con h4{
+margin-bottom: 10px;
+text-transform: capitalize;
+font-size: 30px;
+color: #0d0320;
+    
+}
+.lyr.show .con button{
+border: none;
+outline: none;
+width: 100%;
+padding: 10px;
+border-radius: 4px;
+background: linear-gradient(45deg ,#240165 ,#05001c);
+color: #fff;
+cursor: pointer;
+font-size: 30px;
+text-transform: capitalize;
+
+    
+}
+.lyr{
+    opacity: 0;
+    display: none;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+
+width: 100%;
+margin-top: 70px;
+text-align: right;
+
+
+}
+label{
+    color: #fff;
+    text-transform: capitalize;
+    text-align: right;
+
+}
+input{
+    
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 4px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid ;
+    text-transform: capitalize;
+
+
+}
+input:focus{
+    outline: 2px solid #240165;
+}
+#form button{
+    border-radius: 4px;
+
+    outline: none;
+    border: none;
+    padding: 5px;
+    width: 190px;
+    margin-top: 3px;
+    color: #fff;
+    background-color: #8c54f5;
+    text-transform: capitalize;
+}
